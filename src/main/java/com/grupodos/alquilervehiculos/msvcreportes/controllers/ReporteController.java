@@ -26,7 +26,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/reportes")
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
+@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173","https://soluciones-integrales-juri.vercel.app")
 public class ReporteController {
 
     private static final Logger logger = LoggerFactory.getLogger(ReporteController.class);
